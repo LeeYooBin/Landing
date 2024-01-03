@@ -1,0 +1,19 @@
+.button {
+  padding: 1.2rem 2.3rem;
+  background-color: #fff;
+  color: var(--blue);
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: .2rem solid var(--blue);
+  border-radius: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: var(--blue);
+  color: #fff;
+  border: none;
+}
