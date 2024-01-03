@@ -1,0 +1,48 @@
+.home {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 4.5rem 2rem;
+  gap: 7rem;
+}
+
+.image {
+  width: 80%;
+}
+
+.image_wrapper, .text_wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text_wrapper {
+  text-align: center;
+  gap: 2.5rem;
+}
+
+@media screen and (min-width: 760px) {
+  .home {
+    padding: 4.5rem;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .home {
+    padding: 5rem 20rem;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .text_wrapper {
+    width: auto;
+    text-align: left;
+    align-items: flex-start;
+  }
+}
