@@ -1,0 +1,30 @@
+.logo {
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.circle {
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--blue);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle_letter {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark-text-color);
+}

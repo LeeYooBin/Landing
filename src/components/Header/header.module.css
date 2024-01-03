@@ -1,0 +1,36 @@
+.header {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 760px) {
+  .header {
+    padding: 2.5rem 4.5rem;
+  }
+
+  .navbar {
+    gap: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .header {
+    padding: 4.2rem 20rem;
+  }
+
+  .navbar {
+    gap: 6.5rem;
+  }
+}
